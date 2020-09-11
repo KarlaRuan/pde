@@ -49,42 +49,46 @@
         <div class="col-sm pt-12">
             <h1>Contáctanos</h1>
         </div>
-        <div class="col-sm pl-12 form">
-            <div class="text-center">
+        <div class="col-sm row form">
+            <div class="text-center col-sm-8">
                 <div class="row">
-                    <div class="form-group w-25 pr-5">
+                    <div class="form-group w-50 pr-5">
                         <label readonly class="form-control-plaintext">Nombre</label>
                         <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
                     </div>
-                    <div class="form-group w-25 pr-5">
+                    <div class="form-group w-50 pr-5">
                         <label readonly class="form-control-plaintext">Fecha de nacimiento</label>
                         <input type="text" class="form-control" id="date" placeholder="Ingresa tu fecha">
                     </div>
-                    <div class="form-group w-25 pr-5">
+                </div>
+                <div class="row">
+                    <div class="form-group w-50 pr-5">
                         <label readonly class="form-control-plaintext">Teléfono</label>
                         <input type="text" class="form-control" id="phone" placeholder="Ingresa tu número de teléfono">
                     </div>
-                </div>
-                <div class="row">
-                    <div class="form-group w-25 pr-5">
+                    <div class="form-group w-50 pr-5">
                         <label readonly class="form-control-plaintext">Correo electrónico</label>
                         <input type="email" class="form-control" id="mail" placeholder="Ingresa tu correo electrónico">
                     </div>
-                    <div class="form-group w-25 pr-5">
-                        <label>País</label>
-                        <select id="country" class="form-control">
-                        <option>Seleccionar...</option>
-                      </select>
-                    </div>
                 </div>
+                <div class="w-50 pr-lg-5"><label>País</label></div>
                 <div class="row">
-                    <div class="w-25 pl-1">
-                        <button type="button" class="btn-primary btn btn-md w-50" onclick="send()">Enviar</button><br>
+                    <div class="form-group w-50 pr-5">
+
+                        <select id="country" class="form-control">
+                    <option>Seleccionar...</option>
+                  </select>
                     </div>
                     <div class="w-25 pl-1">
-                        <button type="button" class="btn-danger btn btn-md w-50" onclick="reset()">Cancelar</button><br>
+                        <button type="button" class="btn-primary btn btn-md w-50 pt-20" onclick="send()">Enviar</button><br>
+                    </div>
+                    <div class="w-25 pl-1 pt-12">
+                        <button type="button" class="btn-danger btn btn-md w-50 pt-20" onclick="reset()">Cancelar</button><br>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm-4 contact">
+
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 .nav {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
     font-size: 0;
     background-color: #28598a !important;
@@ -24,7 +24,7 @@ nav li:hover {
 }
 
 .carousel {
-    width: 100vw !important;
+    width: 98.78vw !important;
 }
 
 .videos {
@@ -43,4 +43,13 @@ nav li:hover {
     padding: 20px;
     margin: auto;
     text-align: center;
+}
+
+.icons {
+    size: 20px;
+}
+
+.contact {
+    background-image: url("../images/contact.jpg");
+    object-fit: cover;
 }
