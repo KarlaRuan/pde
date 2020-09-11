@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 0;
+    background-color: #28598a !important;
 }
 
 nav a {
     text-decoration: none;
     color: inherit;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 nav li {
@@ -24,7 +25,6 @@ nav li:hover {
 
 .carousel {
     width: 100vw !important;
-    height: 70vh !important;
 }
 
 .videos {
@@ -36,10 +36,11 @@ nav li:hover {
     margin: auto;
     padding: 20px;
     text-align: center;
-    background: gray;
+    background: #e1e2e4;
 }
 
-.row {
+.form {
     padding: 20px;
     margin: auto;
+    text-align: center;
 }
