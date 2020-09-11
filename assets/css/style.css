@@ -45,11 +45,11 @@ nav li:hover {
     text-align: center;
 }
 
-.icons {
-    size: 20px;
+.social-links {
+    font-size: 30px;
 }
 
 .contact {
     background-image: url("../images/contact.jpg");
-    object-fit: cover;
+    background-size: cover;
 }
